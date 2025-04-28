@@ -1,26 +1,41 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c Python Basics - Simple Arithmetic Calculations
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+To create a Python program to read two integers and perform simple arithmetic calculations (+, -, *, /, //, %, **).
+
 
 ## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+Begin the program.
+
+Read two integer inputs from the user using the input() function and convert them to integers.
+
+Perform addition (+), subtraction (-), multiplication (*), division (/), floor division (//), modulus (%), and exponentiation (**).
+
+Print the results of all operations.
+
+Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
+# Reg.No-212223020018
+#Name-Mohamed Jafin S
 #Write your code here
+a = int(input())
+b = int(input())
+
+print (a+b)
+print (a-b)
+print (a*b)
+print (a/b)
+print (a//b)
+print (a%b)
+print (a**b)
 
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/041d34eb-df54-4ea5-b355-251196e66a86)
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus, the Python program to read two integers and perform simple arithmetic calculations was successfully executed.
