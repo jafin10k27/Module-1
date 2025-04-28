@@ -18,8 +18,8 @@ Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No-212223020018
+# Name-Mohamed Jafin S
 # Write your code here
 
 a=int(input())
