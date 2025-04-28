@@ -1,34 +1,35 @@
-# Experiment No: 1a Python Basics- Printing Multiline String
+# Experiment No: 1b Python Basics - Printing Value and Type of a Variable
 
 ## AIM  
-To create a Python program to print the string in multiple lines using triple quotes.
+To create a Python program to print the value and type of a variable.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
-3. Use the `print()` function to display the multi-line string.  
-4. Terminate the program.
+Begin the program.
+
+Declare a variable and assign a value to it.
+
+Use the print() function to display the value of the variable.
+
+Use the type() function to find the type of the variable and print it.
+
+Terminate the program
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No-212223020018
+# Name-Mohamed Jafin s
 # Write your code here
 
-string_single_quotes = '''I am a string literal
-... has more than one
-... line
-... placed inside triple single quotes'''
+a = eval(input())
 
-string_double_quotes = """I am a string literal
-... has more than one
-... line
-... placed inside triple double quotes"""
+print ("Value =",a)
+print ('type =',type(a))
 
-print(string_single_quotes)
-print(string_double_quotes)
 ```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/65738158-0354-48a0-98b7-8643b1af1baa)
+
 
 ## RESULT
 
+Thus, the Python program to print the value and type of the variable was successfully executed.
