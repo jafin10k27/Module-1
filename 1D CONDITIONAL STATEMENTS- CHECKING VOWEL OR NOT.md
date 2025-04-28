@@ -1,15 +1,20 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d Python Basics - Checking Eligibility to Vote
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To create a Python program to check whether a person is eligible to cast his vote.
+
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+Begin the program.
+
+Read the person's age as input using the input() function and convert it to an integer.
+
+Check if the age is greater than or equal to 18.
+
+If yes, print that the person is eligible to vote.
+
+Otherwise, print that the person is not eligible to vote.
+
+Terminate the program.
 
 ## PROGRAM
 ```python
@@ -17,15 +22,17 @@ To Write a Python program to check whether the given character is a vowel or not
 # Name-
 # Write your code here
 
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+a=int(input())
+if a >= 18 :
+    print("Eligible")
 else:
-    print("The given character is NOT a vowel")
+    print("Not Eligible")
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/812d2030-c5ae-403e-8888-c799f30ec66e)
 
 ## RESULT
+Thus, the Python program to check whether a person is eligible to cast his vote was successfully executed.
+
+
